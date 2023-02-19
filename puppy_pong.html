@@ -1,0 +1,33 @@
+<!--this page add all neccesary game components for the puppy pong game-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+        <link rel="stylesheet" href="public/style.css"> 
+        <script src="public/puppy_pong.js"></script>
+    </head>
+    <body>
+        <a href="/" class = "button" style="color:yellow; font-size: large;">Back to main</a><br>
+        <button type="button" class="button" id="reset_button">reset</button>
+        <img id="puppy_img" src="https://source.unsplash.com/random/300x200?puppy" alt=""/>
+        <div id="game_over_text">Game Over!!!</div>
+        <div id="top_right_text_box">
+            <div>
+                <span class="text">Number of time you played: </span>
+                <span id="times_count" class="text">0</span>
+            </div>
+            <div>
+                <span class="text">Score: </span>
+                <span id="score" class="text">0</span>
+            </div>
+            <div>
+                <span class="text">Timer: </span>
+                <span class="text" id="time">0</span>
+                <span class="text"> seconds</span>
+            </div>
+        </div>
+        <img src="/public/bar.png" alt="a bar" id ="bar" width="300px" height="10px">
+        
+    </body>
+
+</html>
